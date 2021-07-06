@@ -57,9 +57,7 @@ body {
 }
 
 .nav-menu ul li {
-
     margin: 0 20px;
-
 }
 
 .nav-menu ul li a {
@@ -90,7 +88,6 @@ body {
     width: 0%;
     left: 0;
     height: 1px;
-
 }
 
 .nav-menu ul li a::before {
@@ -102,7 +99,6 @@ body {
     width: 0%;
     right: 0;
     height: 1px;
-
 }
 
 .nav-menu ul li:hover a::after {
@@ -223,13 +219,11 @@ body {
     line-height: 32px;
     color: #18191F;
     margin-bottom: 90px;
-
 }
 
 
 .about-desc a {
-    display: inline-block;
-
+  display: inline-block;
 }
 
 
@@ -301,9 +295,8 @@ body {
     margin: 0;
 }
 
-
-
 /* Recipe section css ends */
+
 
 /* social statistic css starts */
 #social-statistic {
@@ -313,7 +306,6 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-
 }
 
 .inner-social {
@@ -360,7 +352,7 @@ textarea {
     width: 100%;
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 10px ;
     margin: 5px 0;
     border-radius: 5px;
 }
@@ -396,11 +388,14 @@ textarea::placeholder {
     cursor: pointer;
     margin-top: 5px;
     transition: 0.5s;
-
 }
 
 #send-btn:hover {
-    background: linear-gradient(88.33deg, #FF1E1E -7.64%, #FBA24F 145.94%);
+ background: linear-gradient(88.33deg, #FF1E1E -7.64%, #FBA24F 145.94%);
+}
+
+textarea {
+    resize: none;
 }
 
 /* contact section ends */
@@ -432,15 +427,12 @@ footer {
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .inner-footer p {
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-
-
 }
 
 .footer-text {
@@ -449,18 +441,13 @@ footer {
     font-size: 12px;
     margin-bottom: 10px;
     position: relative;
-   
-
 }
 
 
 .footer-text a {
-text-decoration: none;
-color: orangered;
-
-
+    text-decoration: none;
+    color: orangered;
 }
-
 
 
 /* footer css ends */
