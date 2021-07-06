@@ -109,7 +109,6 @@ body {
     width: 100%;
 }
 
-
 /* Header section css ends */
 
 /* Home section css  starts*/
@@ -149,7 +148,7 @@ body {
 }
 
 #gradient-btn {
-    transition: 0.5s ease-in-out;
+    transition: 0.5s;
     display: inline-block;
     text-decoration: none;
     font-weight: 600;
@@ -226,7 +225,6 @@ body {
   display: inline-block;
 }
 
-
 /* About Section css ends */
 
 /* Recipe section css starts */
@@ -297,8 +295,8 @@ body {
 
 /* Recipe section css ends */
 
-
 /* social statistic css starts */
+
 #social-statistic {
     padding-top: 10vh;
     background: #fff;
@@ -323,9 +321,8 @@ body {
 
 /* social statistic css ends */
 
-
-
 /* contact section starts */
+
 #contact {
     background: #E5E5E5;
     height: 80vh;
@@ -400,9 +397,6 @@ textarea {
 
 /* contact section ends */
 
-
-
-
 /* footer css starts */
 footer {
     background: #0B0D17;
@@ -440,7 +434,6 @@ footer {
     text-align: center;
     font-size: 12px;
     margin-bottom: 10px;
-    position: relative;
 }
 
 
