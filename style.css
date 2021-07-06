@@ -170,7 +170,6 @@ body {
 }
 
 .recipe-image {
-    margin-bottom: 20px;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -185,7 +184,7 @@ body {
     font-size: 28px;
     line-height: 40px;
     color: #18191F;
-    margin-bottom: 5px;
+    margin: 25px 0 8px;
 }
 
 .recipe-box p {
@@ -193,7 +192,7 @@ body {
     line-height: 32px;
     color: #18191F;
     text-align: left;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 
