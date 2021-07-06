@@ -132,8 +132,8 @@ body {
 
 /* Recipe section css starts */
 
-#recipe {
-    background: #E5E5E5;
+#recipes {
+    background: #fff;
 }
 
 .inner-recipes h2 {
@@ -198,3 +198,27 @@ body {
 
 
 /* Recipe section css ends */
+
+/* social statistic css starts */
+#social-statistic {
+    background: #fff;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.inner-social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner-social{
+    height: 20vh;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+/* social statistic css ends */
