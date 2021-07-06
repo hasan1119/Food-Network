@@ -1,0 +1,75 @@
+/* Common Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 0;
+}
+
+/* Home area css */
+
+#home-area {
+    background: #E5E5E5;
+    height: 100vh;
+}
+
+.inner-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.home-desc h1 {
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    font-size: 58px;
+    line-height: 130%;
+}
+
+.home-desc h1 span {
+    color: #FF1E1E;
+}
+
+.home-desc p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: #828282;
+    margin: 40px 0;
+}
+
+.home-desc a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 24px 32px;
+    border-radius: 100px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+}
+
+.home-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-image img {
+    width: 100%;
+}
